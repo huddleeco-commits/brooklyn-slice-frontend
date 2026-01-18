@@ -1,0 +1,25 @@
+/* Auto-generated theme from industry config */
+:root {
+  --color-primary: #8B0000;
+  --color-secondary: #2c1810;
+  --color-accent: #FFD700;
+  --color-background: #faf7f2;
+  --color-surface: #12121a;
+  --color-text: #2c1810;
+  --color-text-muted: #6b5b4f;
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Lato', system-ui, sans-serif;
+  --border-radius: 8px;
+}
+
+/* Dark mode default */
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
